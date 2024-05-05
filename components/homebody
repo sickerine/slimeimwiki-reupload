@@ -1,0 +1,45 @@
+<div class="homebasecontainer">
+    <div class="homebase">
+        <h1 class = "statstitle">Welcome to SLIMEIM.WIKI!</h1>
+        <div class="homecategory">
+            <h2>SLIMEIM.WIKI is a Database for SLIME - Isekai Memories, the That Time I Got Reincarnated as a Slime mobile game developed by WFS and published by Bandai Namco Entertainment.</h2>
+            <!--button type = "button" id ="all" class="unittypebutton">Characters</button-->
+        </div>
+        <p class = "statstitle">Latest Characters</p>
+        <div id = "latestcharacters" class="homecategory"></div>
+        <p class = "statstitle">Timers</p>
+        <div id = "timers" class="homecategory">
+            <div class="serverselect">
+                <button type = "button" id ="NA" class="unittypebutton" toggle = "true">NA</button>
+                <button type = "button" id ="EU" class="unittypebutton">EU</button>
+                <button type = "button" id ="Asia" class="unittypebutton">Asia</button>
+            </div>
+            <div class = "timercontainer">
+                <p class = "timername">Login Reset</p>
+                <p id = "reset" class = "timer"></p>
+                <p id = "reset" class = "date"></p>
+            </div>
+            <div class = "timercontainer">
+                <p class = "timername">Content Update</p>
+                <p id = "update" class = "timer"></p>
+                <p id = "update" class = "date"></p>
+            </div>
+        </div>
+        <p class = "statstitle">New Events</p>
+        <div id = "newevents" class="homecategory ongoingevents">
+            <a type = "button" href = "/events" id ="anchor" class="unittypebutton">All Events</a>
+        </div>
+        <p class = "statstitle">Ending Soon</p>
+        <div id = "endingevents" class="homecategory ongoingevents">
+        </div>
+        <p class = "statstitle">Ongoing Events</p>
+        <div id = "ongoingevents" class="homecategory ongoingevents">
+        </div>
+        <p class = "statstitle">Announcements</p>
+        <div id = "announcements" class="homecategory ongoingevents">
+        </div>
+        <p class = "statstitle">Packs</p>
+        <div id = "packs" class="homecategory ongoingevents">
+        </div>
+    </div>
+</div>

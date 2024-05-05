@@ -1,0 +1,85 @@
+<div class="charactersbasecontainer">
+    <div class="charactersbase">
+        <div class = "typechartcontainer"><img src="https://cdn.discordapp.com/attachments/633768073068806144/986706482387107840/attribute.png" alt=""></div>
+        <div id = "skillfilter" class = "skillfilter">
+            <strong>Skills Filter</strong>
+        </div>
+        <div id = "traitfilter" class = "skillfilter">
+            <strong>Traits Filter</strong>
+        </div>
+        <div class ="sortingbox">
+            <div class="unittypeselectcontainer">
+                <div class="unittypeselect">
+                    <p>List </p>
+                    <button type = "button" id ="all" class="unittypebutton" toggle = "true">All</button>
+                    <button type = "button" id ="battleunit" class="unittypebutton">Battle</button>
+                    <button type = "button" id ="protectionunit" class="unittypebutton">Protection</button>
+                </div>
+            </div>
+            <div class="sortcontainer">
+                <div class="sortselect">
+                    <img src="https://cdn.discordapp.com/attachments/633768073068806144/986711635269910578/Sort.png" alt="Sort">
+                    <button type = "button" id ="NoSort" class="unittypebutton" toggle = "true">Release</button>
+                    <button type = "button" id ="NameSort" class="unittypebutton" toggle = "true">Name</button>
+                    <button type = "button" id ="RaritySort" class="unittypebutton" >Rarity</button>
+                    <button type = "button" id ="MaxAtkSort" class="unittypebutton">Attack</button>
+                    <button type = "button" id ="MaxDefSort" class="unittypebutton">Defense</button>
+                    <button type = "button" id ="MaxHpSort" class="unittypebutton">Health</button>
+                    <button type = "button" id ="EPSort" class="unittypebutton">EP</button>
+                </div>
+            </div>
+            <div class="types">
+                <div id = "types" class="typeselectcontainer" big = "true">
+                    <button id = "Fire"><img src="https://i.imgur.com/QndVudD.png" alt=""></button>
+                    <button id = "Earth"><img  src="https://i.imgur.com/AHPti72.png" alt=""></button>
+                    <button id = "Space"><img src="https://i.imgur.com/z8bnSYg.png" alt=""></button>
+                    <button id = "Wind"><img src="https://i.imgur.com/pQYVkI3.png" alt=""></button>
+                    <button id = "Water"><img src="https://i.imgur.com/NchScWh.png" alt=""></button>
+                    <button id = "Light"><img src="https://i.imgur.com/hX15sR0.png" alt=""></button>
+                    <button id = "Dark"><img src="https://i.imgur.com/pzX6NRL.png" alt=""></button>
+                    <button id = "Melee"><img src="https://i.imgur.com/EWYVugy.png" alt=""></button>
+                    <button id = "Magic"><img src="https://i.imgur.com/SsC1hEj.png" alt=""></button>
+                </div>
+
+                <div id = "weapon" class="typeselectcontainer" sorry = "true">
+                    <button id = "Sword"><img src="https://cdn.discordapp.com/attachments/633768073068806144/982523252985446460/unknown.png" alt=""></button>
+                    <button id = "Katana"><img src="https://cdn.discordapp.com/attachments/633768073068806144/982523309382053898/unknown.png" alt=""></button>
+                    <button id = "Hammer"><img src="https://cdn.discordapp.com/attachments/633768073068806144/982527713015373824/Layer_3.png" alt=""></button>
+                    <button id = "Lance"><img src="https://cdn.discordapp.com/attachments/633768073068806144/982523242931683328/unknown.png" alt=""></button>
+                    <button id = "Greatsword"><img src="https://cdn.discordapp.com/attachments/633768073068806144/982523229736402964/unknown.png" alt=""></button>
+                    <button id = "Tome"><img src="https://cdn.discordapp.com/attachments/633768073068806144/982523214364291112/unknown.png" alt=""></button>
+                    <button id = "Fist"><img src="https://cdn.discordapp.com/attachments/633768073068806144/985207460614774835/Layer_32.png" alt=""></button>
+                </div>
+
+                <div id = "other" class="typeselectcontainer" smallest = "true">
+                    <button id = "Octagram"><img src="https://cdn.discordapp.com/attachments/633768073068806144/992075952970551417/unknown.png" alt=""></button>
+                </div>
+
+                <div id = "growth" class="typeselectcontainer" small = "true">
+                    <button id = "Attack"><img src="https://i.imgur.com/yduAVsz.png" alt=""></button>
+                    <button id = "Balance"><img src="https://i.imgur.com/MLuLYZy.png" alt=""></button>
+                    <button id = "Defense"><img src="https://i.imgur.com/P4N7gFs.png" alt=""></button>
+                </div>
+
+
+                <div id = "attacktype" class="typeselectcontainer" smallest = "true">
+                    <button id = "Melee"><img src="https://i.imgur.com/P8lUDX0.png" alt=""></button>
+                    <button id = "Magic"><img src="https://i.imgur.com/tOS4FvO.png" alt=""></button>
+                </div>
+
+                <div id = "secrettype" class="typeselectcontainer" smallest = "true">
+                    <button id = "TypeAll"><img src="https://cdn.discordapp.com/attachments/633768073068806144/982528148191186984/icSpTypeAll.png" alt=""></button>
+                    <button id = "TypeSingle"><img src="https://cdn.discordapp.com/attachments/633768073068806144/982528147880828948/icSpTypeSingle.png" alt=""></button>
+                </div>
+
+                <div id = "stars" class="typeselectcontainer" biggest = "true">
+                    <button id = "3"><img src="https://cdn.discordapp.com/attachments/633768073068806144/982527856418648135/3star.png" alt=""></button>
+                    <button id = "4"><img src="https://cdn.discordapp.com/attachments/633768073068806144/982527856775143484/4star.png" alt=""></button>
+                    <button id = "5"><img src="https://cdn.discordapp.com/attachments/633768073068806144/982527856162799626/5star.png" alt=""></button>
+                </div>
+                <button id = "skillsfilterbutton" class="typeselectcontainer">Skills Filter</button>  
+                <button id = "traitsfilterbutton" class="typeselectcontainer">Traits Filter</button>  
+            </div>
+        </div>
+    </div>
+</div>

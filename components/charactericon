@@ -1,0 +1,6 @@
+
+    <img id = "icon" class = "charicon" src="" alt="" loading = "lazy">
+    <img id = "rarity" class = "charstars" src="" alt="" loading = "lazy">
+    <img id = "type" class = "chartype" src="" alt="" loading = "lazy">
+    <img id = "secondtype" class = "chartypesecond" src="" alt="" loading = "lazy">
+    <div id = "name" class="charname" loading = "lazy"></div>
